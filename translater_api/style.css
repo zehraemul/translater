@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+
+*{
+    font-family: 'Source Code Pro', monospace;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #937DC2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container{
+    width: 800px;
+    background-color:#C689C6 ;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+    border: 1px solid black;
+}
+
+.box{
+    border: 1px solid black;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    
+}
+.controls{
+   padding: 0px 20px;
+   display: flex;
+   justify-content: center;
+}
+.controls li{
+    display: flex;
+    align-items: center;
+
+}
+
+li{
+    text-decoration: none;
+    padding: 30px;
+}
+
+.txt{
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    background-color: #f3d6e8;
+    border:1px solid black;
+    outline: 0;
+    border-radius: 5px;
+}
+
+#translate_btn{
+    background-color: #937DC2;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 100%;
+}
+#translate_btn:hover{
+    background-color: #f4cce7;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.icons{
+    padding: 20px;
+}
+
+#from-lang, #to-lang{
+    font-size: 15px;
+    background-color: #f3d6e8;
+    padding: 5px 10px;
+}
+
+.fas{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+.text_controls textarea{
+ height: 250px;
+ width: 300px;
+}
